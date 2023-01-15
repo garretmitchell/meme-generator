@@ -1,0 +1,121 @@
+h1 {
+    color: rgb(29, 29, 227);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.center {
+    text-align: center;
+}
+
+.main {
+    width: 50%;
+    margin: 0 auto;
+    background-color: lightseagreen;
+    border-radius: 0.5rem;
+    border: 0.08rem solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+}
+
+.meme {
+    width: 99%;
+    justify-content: center;
+    border-radius: 0.5rem;
+    border: 0.08rem solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    position: relative;
+}
+
+.top-text {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    color: #ffffff;
+    z-index: 3;
+    font-size: 100px;
+}
+
+.bottom-text {
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+    color: #ffffff;
+    z-index: 3;
+    font-size: 100px;
+}
+
+.meme img {
+    max-width: 100%;
+    z-index: 2
+}
+
+main:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+meme:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+body {
+    background-color: #f0feff;
+}
+
+.button {
+    float: right;
+}
+
+
+
+
+hr.rounded {
+    border-top: 2px solid #bbb;
+    border-radius: 5px;
+    width: 90%;
+}
+
+.border_lower {
+    border-bottom: 1px solid #bbb;
+    border-radius: 5px;
+    width: 90%;
+}
+
+
+
+form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+form input {
+    margin: 2px;
+}
+
+form label {
+    margin: 2px;
+}
+
+
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+
+
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+
+
+.location {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
